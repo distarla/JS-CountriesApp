@@ -1,0 +1,41 @@
+.loader {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-image: url("../images/loader.gif");
+    background-repeat: no-repeat;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #sort {
+    cursor: pointer;
+  }
+
+  #pagination {
+    font-size: 3rem;
+  }
+
+  #tableLine [country] {
+    cursor: pointer;
+  }
+
+  #countryModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    z-index: 100;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px rgba(216, 213, 213, 0.692);
+  }
+
+  #close {
+    cursor: pointer;
+  }
